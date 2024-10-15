@@ -1,7 +1,7 @@
 // @ts-nocheck
 
 // Create a WebSocket connection
-const ws = new WebSocket('ws://https://chat-app-mindful.onrender.com/server')
+const ws = new WebSocket('ws://https://chatapp-9czf.onrender.com/server')
 
 ws.onmessage = (event) => {
   console.log('Message received from server')
